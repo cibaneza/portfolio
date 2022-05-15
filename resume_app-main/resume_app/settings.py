@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-v8bzoj5)*&_%x-yy7o*z-2$*m1uuo*hbtb(n)%@bboej@%wkox
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','portfolio-main-1.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -82,10 +82,6 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
-        'HOST': 'ec2-3-224-164-189.compute-1.amazonaws.com',
-        'USER': 'eetqggtcrhspxy',
-        'PASSWORD': '8be18789e6bffc85767798ea509b844eb5ab85b2ee4ec59067aa264393e66a2c',
-        'PORT': 5432,
     }
 }
 
